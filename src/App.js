@@ -5,30 +5,23 @@ import './App.css';
 
 // pages //
 import Homepage from './pages/homepage/Homepage';
+import Shop from './pages/shop/Shop';
 
 // components //
 
 
 
+
 function App() {
-
-  const BackToHome = () => {
-    return (
-      <button style={{ fontSize: '1.2rem', padding: '.5em .8em' }}>
-        <Link to="/">Home</Link>
-      </button>
-
-    )
-  }
 
   return (
 
     <div>
-      {/* back to home */}
-      <BackToHome />
+
 
       <Switch>
         <Route exact path="/" component={Homepage} />
+        <Route exact path="/shop" component={Shop} />
 
       </Switch>
 
