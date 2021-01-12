@@ -2,3 +2,15 @@ body {
   font-family: 'Open Sans Condensed', sans-serif;
   padding: 1.25rem 4rem;
 }
+
+a {
+  color: #777;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  transition: color .3s ease;
+}
+
+a:hover {
+  color: #333;
+}

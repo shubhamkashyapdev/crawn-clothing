@@ -7,7 +7,8 @@ const CollectionItem = ({ id, name, price, imageUrl }) => {
   return (
     <div className="collection-item">
       <div className="image" style={{
-        background: `url(${imageUrl}) no-repeat initial center`, backgroundSize: 'cover'
+        background: `url(${imageUrl})`,
+        backgroundSize: 'cover'
       }} />
       <div className="collection-footer">
         <span className="name">{name}</span>
