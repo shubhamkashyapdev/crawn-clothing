@@ -3,6 +3,10 @@ body {
   padding: 1.25rem 4rem;
 }
 
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
 a {
   color: #777;
   text-decoration: none;

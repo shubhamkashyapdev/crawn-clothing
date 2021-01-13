@@ -18,10 +18,19 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    cursor: pointer;
 
     .option {
       padding: 10px 15px;
-     
+    }
+    .sign-out {
+      outline: 1px solid black;
+      transition: all .3s ease;
+      font-weight: bold;
+    }
+    .sign-out:hover {
+      outline: 2px solid black;
+      outline-offset: -3px;
     }
   }
 }
